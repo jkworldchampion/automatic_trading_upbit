@@ -4,8 +4,8 @@ import time
 import pyupbit
 import datetime
 
-access = ""          # 본인 값으로 변경
-secret = ""          # 본인 값으로 변경
+access = "105786d929ebc0519de051c0f2ebc903"          # 본인 값으로 변경
+secret = "f6c266ffececc6fac6759274ac5ad6d3"          # 본인 값으로 변경
 upbit = pyupbit.Upbit(access, secret)
 
 def get_target_price(ticker, k):
